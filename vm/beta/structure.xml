@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding="utf-8" standalone="yes"?>
+
+<element type="state" name="Вторая Россия" id="s_russia">
+	<job id="president" name="Президент">
+		<group name="Министерства">
+			<element type="ministry" name="МВД"></element>
+			<element type="ministry" name="МИД"></element>
+		</group>
+		<job id="prime" name="Премьер-министр">
+			<group name="Министерства">
+				<element type="ministry" name="МК"></element>
+			</group>
+		</job>
+	</job>
+</element>

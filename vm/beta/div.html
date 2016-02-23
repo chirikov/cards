@@ -1,0 +1,73 @@
+<html>
+
+<style>
+.img{position: relative; left: 0px; top: 0px}
+</style>
+
+<div id="scene" style="width: 500px; height: 400px; border: 1px solid black">
+<img src="../photos/1/7/ekovhqms.jpg" id="img1" class="img">
+<img src="../photos/1/7/hbuecyks.jpg" id="img2" class="img">
+<img src="../photos/1/7/misvojws.jpg" id="img3" class="img">
+<img src="../photos/1/7/qizkorgs.jpg" id="img4" class="img">
+</div>
+
+<script type="text/javascript">
+
+var imgnum = 4;
+
+var timers = new Array(), targets_x = new Array(), targets_y = new Array(), deltas_x = new Array(), deltas_y = new Array();
+
+function trip(i)
+{
+	var oimg = document.getElementById("img"+i);
+	
+	targets_x[i] = Math.random()*(500 - parseInt(oimg.style.left));
+	targets_y[i] = Math.random()*(400 - parseInt(oimg.style.top));
+	
+	//alert(targets_x[i]);
+	
+	deltas_x[i] = (targets_x[i] - parseInt(oimg.style.left))/100;
+	deltas_y[i] = (targets_y[i] - parseInt(oimg.style.top))/100;
+	
+	//alert(deltas_x[i]);
+	
+	range(i);
+}
+function range(i)
+{
+	var oimg = document.getElementById("img"+i);
+	
+	var cur_x = parseInt(oimg.style.left);
+	var cur_y = parseInt(oimg.style.top);
+	//alert(cur_x);
+	
+	if(Math.abs(cur_x - targets_x[i]) > 50 || Math.abs(cur_y - targets_y[i]) > 50)
+	{
+		oimg.style.left = cur_x + deltas_x[i]+"px";
+		oimg.style.top = cur_y + deltas_y[i]+"px";
+		
+		timers[i] = setTimeout("range("+i+")", 100);
+	}
+	else
+	{
+		//alert(cur_y);
+		trip(i)
+	}
+}
+
+for(i=1; i<=imgnum; i++)
+{
+	var oimg = document.getElementById("img"+i);
+	//alert(oimg.style.left);
+	targets_x[i] = Math.random()*150;
+	targets_y[i] = Math.random()*250;
+	
+	oimg.style.left = targets_x[i]+"px";
+	oimg.style.top = targets_y[i]+"px";
+	
+	trip(i);
+}
+
+</script>
+
+</html>

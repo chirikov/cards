@@ -1,0 +1,11 @@
+.card{border: 1px solid #d3d3d3; background: #f9f9f9; margin: 7px}
+.card .body{padding: 3px; height: 100%}
+.card .body .left_col{width: 300px; text-align: center; float: left}
+.card .body .right_col{float: left; padding: 10px 0 0 20px}
+.card .title{width: 100%; height: 16px; background: #eee; border-bottom: 1px solid #d3d3d3}
+.card .title .card_number{float: right}
+.card .cfooter{width: 100%; height: 16px; background: #eee; border-top: 1px solid #d3d3d3; position: relative; top: -40px}
+
+.big{width: 100%; height: 600px}
+.medium{width: 400px; height: 300px}
+.small{width: 200px; height: 150px}

@@ -1,0 +1,74 @@
+<div id="card5" class="card" style="width: 236px; position: relative; float: left">
+		<div class="title" style="cursor: move" onmousedown="javascript: StartDrag(event, document.getElementById('card5'), window.document.body);">
+			<div class="left"></div>
+			<div class="right"><div class="win_close" onclick="document.getElementById('card5').style.display = 'none';"></div></div>
+			Погода в Уфе
+		</div>
+		<div class="body" style="height: 170px; background: #FEFEFE">
+		<iframe scrolling="No" style="border: 0" frameborder="0" src="widgets/yaweather/yaweather.html" width="234" height="170"></iframe>
+		</div>
+		<div class="title">
+			<div class="left" id="foot5" style="padding-left: 3px"></div>
+			<div class="right"><div class="wait" id="wait5"></div></div>
+		</div>
+	</div>
+	
+	<div id="card7" class="card" style="width: 236px; position: relative; float: left">
+		<div class="title" style="cursor: move" onmousedown="javascript: StartDrag(event, document.getElementById('card7'), window.document.body);">
+			<div class="left"></div>
+			<div class="right"><div class="win_close" onclick="document.getElementById('card7').style.display = 'none';"></div></div>
+			Яндекс.Поиск
+		</div>
+		<div class="body" style="height: 170px; background: #FEFEFE">
+		<iframe scrolling="No" style="border: 0" frameborder="0" src="widgets/yasearch/yasearch.html" width="234" height="170"></iframe>
+		</div>
+		<div class="title">
+			<div class="left" id="foot7" style="padding-left: 3px"></div>
+			<div class="right"><div class="wait" id="wait7"></div></div>
+		</div>
+	</div>
+	
+	<div id="card8" class="card" style="width: 236px; position: relative; float: left">
+		<div class="title" style="cursor: move" onmousedown="javascript: StartDrag(event, document.getElementById('card8'), window.document.body);">
+			<div class="left"></div>
+			<div class="right"><div class="win_close" onclick="document.getElementById('card8').style.display = 'none';"></div></div>
+			Поиск в Википедии
+		</div>
+		<div class="body" style="height: 170px; background: #FEFEFE">
+		<iframe scrolling="No" style="border: 0" frameborder="0" src="widgets/wikisearch/wikisearch.html" width="234" height="170"></iframe>
+		</div>
+		<div class="title">
+			<div class="left" id="foot8" style="padding-left: 3px"></div>
+			<div class="right"><div class="wait" id="wait8"></div></div>
+		</div>
+	</div>
+	
+	<div id="card9" class="card" style="width: 236px; position: relative; float: left">
+		<div class="title" style="cursor: move" onmousedown="javascript: StartDrag(event, document.getElementById('card9'), window.document.body);">
+			<div class="left"></div>
+			<div class="right"><div class="win_close" onclick="document.getElementById('card9').style.display = 'none';"></div></div>
+			В контакте
+		</div>
+		<div class="body" style="height: 170px; background: #FEFEFE; text-align: center">
+		<iframe scrolling="No" style="border: 0" frameborder="0" src="widgets/vkontakte/vkontakte.html" width="234" height="170"></iframe>
+		</div>
+		<div class="title">
+			<div class="left" id="foot9" style="padding-left: 3px"></div>
+			<div class="right"><div class="wait" id="wait9"></div></div>
+		</div>
+	</div>
+	
+	<div id="card10" class="card" style="width: 236px; position: relative; float: left">
+		<div class="title" style="cursor: move" onmousedown="javascript: StartDrag(event, document.getElementById('card10'), window.document.body);">
+			<div class="left"></div>
+			<div class="right"><div class="win_close" onclick="document.getElementById('card10').style.display = 'none';"></div></div>
+			Случайный сайт
+		</div>
+		<div class="body" style="height: 170px; background: #FEFEFE; text-align: center">
+		<iframe scrolling="No" style="border: 0" frameborder="0" src="widgets/randsite/randsite.php" width="234" height="170"></iframe>
+		</div>
+		<div class="title">
+			<div class="left" id="foot10" style="padding-left: 3px"></div>
+			<div class="right"><div class="wait" id="wait10"></div></div>
+		</div>
+	</div>

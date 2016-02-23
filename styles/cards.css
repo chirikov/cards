@@ -1,0 +1,84 @@
+.card{margin: 6px; border: 1px solid transparent; _border-width: 0px}
+.card .title{background: #eee; border: 1px solid #d3d3d3; height: 16px; text-align: center}
+.card .title .left{float: left; height: 16px; text-align: left}
+.card .title .right{float: right; text-align: left}
+.card .title .right .refresh{height: 14px; margin: 2px 3px 0 0; _margin-right: 0; float: left}
+
+.card .title .tab{padding: 0 4px 2px 4px; position: relative}
+.card .title .tab a{text-decoration: none}
+.card .title .tab:hover{background: #fffebf}
+.card .title .left .tab{border-right: 1px solid #d3d3d3}
+.card .title .right .tab{border-left: 1px solid #d3d3d3}
+.card .title .wa{_top: 1px}
+.card .title .arrow{font-size: 11px}
+*:first-child+html .card .title .wa{top: 1px}
+*:first-child+html .card .title .arrow{font-size: 11px}
+.card .title .current{background: #fff}
+.card .title .current:hover{background: #fff}
+
+.card .title .win_close{width: 14px; height: 14px; margin: 1px 1px 0 0; background: url(../images/close.gif) 0 0 no-repeat; cursor: hand; cursor: pointer}
+
+.card .card_menu{background: #fff; border: 1px solid #d3d3d3; border-left: 0; text-align: left}
+.card .card_menu .card_menu_item{padding: 0 2px 2px 2px}
+.card .card_menu .card_menu_item:hover{background: #e0e0e0}
+.card .card_menu .card_menu_item a{text-decoration: none}
+.card .cm_top{border-top: 0}
+.card .cm_bottom{border-bottom: 0; height: 100px; width: 97px; position: absolute}
+
+.card .body{border: 1px solid #d3d3d3; border-top: 0; border-bottom: 0; background: #fff; overflow: hidden}
+.card .body table.center{width: 100%; height: 100%}
+.card .body table.center td{vertical-align: middle; text-align: center}
+.card .body table.center td.bottom{height: 40px}
+.card .body .bigtitle{font-size: 20px; padding: 0 0 20px 0; text-align: center}
+.card .body .left_col{float: left; padding: 10px 0 0 20px}
+.card .body .right_col{width: 300px; text-align: center; float: right; padding: 10px 0 0 0}
+
+.tbl_messages{width: 100%; height: 100%; border: 0}
+.tbl_messages td{padding: 3px}
+
+.bigtext{font-size: 20px}
+.medtext{font-size: 16px}
+.smalltext{font-size: 12px}
+
+.big{width: 100%; height: 600px}
+.medium{width: 400px; height: 300px}
+.small{width: 200px; height: 150px}
+
+.login_table{margin: 0 auto}
+.login_table td{padding: 5px; text-align: left}
+.login_table td a{font-size: 12px}
+
+.markup_table{margin: 0 auto}
+.markup_table td{padding: 5px 3px}
+
+.styletable{width: 100%; background: #e5e5e5; text-align: left}
+.styletable td{width: 50%; border: 1px solid #d3d3d3; text-align: left}
+
+.wait{width: 21px; height: 16px; margin: 0 5px 0 0; _margin-right: 3px; background: url(../images/wait.gif) 100% 50% no-repeat; float: right; display: none}
+.button{width: 100px; height: 18px; border: 1px solid #d3d3d3; border-top: 2px solid #d3d3d3; border-bottom: 2px solid #d3d3d3; background: #eeeeee; text-align: center; padding-top: 2px; font-weight: bold; font-size: 14px}
+.button:hover{background: #fff; cursor: hand}
+
+input.text{padding: 4px; width: 150px}
+input.but{padding: 4px; width: 150px}
+input.inpvars{padding: 4px; width: 150px}
+input.colorPick{width: 60px; border: 1px solid #d3d3d3; padding: 4px}
+textarea{border: 1px solid #aaa; overflow: auto}
+
+.variants{background: #fff; border: 1px solid #d3d3d3; position: absolute; height: auto}
+.variants .variant{padding: 3px; background: #fff; cursor: default; text-align: left}
+.variants .variant:hover{background: #e0e0e0}
+.variants .variant .main{font-size: 12px; color: #4e4e4e}
+.variants .variant .sub{font-size: 10px; color: #aaa}
+.variants .variant_close{background: #fff url(../images/close.gif) 50% 50% no-repeat; border-top: 1px solid #d3d3d3; height: 20px; cursor: hand; cursor: pointer}
+.var_scroll{max-height: 300px; height: auto; overflow: scroll}
+.variants_wait{background: #fff url(../images/wait.gif) 50% 50% no-repeat; border: 1px solid #d3d3d3; width: 159px; height: 20px; position: absolute}
+.vars_container{width: 160px; text-align: left}
+
+div.draggable{position: relative; float: left; clear: both; border: 1px solid transparent; _border-width: 0px; padding: 1px}
+<!--div.draggable_on{position: relative; float: left; clear: both; border: 1px dashed #aaa; cursor: move; padding: 1px}-->
+div.on{border: 1px dashed #aaa; padding: 2px; cursor: move}
+
+.change_interface{float:right}
+.change_interface a.change{float:right;background:url(../images/change_interface.gif) 0 1px no-repeat;font-size:10px;line-height:15px;height:15px;padding:0 0 1px 25px}
+.change_interface a{float:right;font-size:10px;line-height:15px;height:15px;padding:0 10px 1px 0}
+.addopt{float:right; background:url(../images/add_option.gif) 10px 1px no-repeat;font-size:10px;line-height:15px;height:15px;padding:0 5px 1px 35px}

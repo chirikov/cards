@@ -1,0 +1,69 @@
+
+.image_border{display:block;background:#fff;padding:3px;border:1px solid #d3d3d3}
+div.draggable{position: relative; z-index: 0}
+.addopt{padding:15px 0 0 0;height:25px}
+.addopt a.add{float:right;background:url(../images/add_option.gif) 0 2px no-repeat;font-size:10px;line-height:15px;height:15px;padding:0 0 1px 25px}
+.addopt a{float:right;font-size:10px;line-height:15px;height:15px;padding:0 10px 1px 0}
+
+
+.albums{padding: 0 0 40px 1px}
+.albums table{width: 100%;}
+.albums table td{border: 1px solid #d3d3d3; padding-top: 5px; padding-bottom: 5px}
+.albums table td.photos{border: 1px solid #d3d3d3; padding-top: 20px; padding-bottom: 20px}
+.albums table td table{margin: auto; height: 100%}
+.albums table td table .images{text-align: center; vertical-align: middle; background: #fff; padding: 3px; border: 1px solid #d3d3d3; cursor: pointer; cursor: hand}
+.albums table td table .underalbum{height: 70px; border: 0; text-align: center}
+.albums table td table td .oneimage{border: 0; padding: 0}
+.albums table td table td{border: 0; padding: 0}
+
+.window1 .profile_albums{border:3px solid #dcdcdc;border-width:0 3px 3px 3px}
+.window1 .profile_albums table.profile_albums{width:100%}
+.window1 .profile_albums td{border:1px solid #dcdcdc;padding:10px 10px;font-size:10px;vertical-align:top;color:#555;text-align: center}
+.window1 .profile_albums td a:link,.window1 .posts td a:visited,.window1 .posts td a:hover{color:#555}
+.window1 .profile_albums td:hover{background:#fffebf}
+.window1 .profile_albums td img{background: #fff; padding: 3px; border: 1px solid #d3d3d3}
+
+
+img.wait{padding: 0 5px 0 5px; display: none}
+.status{color:#3e9b00;font-size:11px;background:url(../images/status.gif) 0 6px no-repeat; padding: 1px 0 0 10px}
+
+.pager{padding:15px 0 30px 0}
+.pager table{margin:0 auto;font-size:11px}
+.pager td{color:#161616;padding:0 4px}
+.pager td a:link,.my_mail .pager td a:visited,.my_mail .pager td a:hover{color:#161616}
+.pager .arrow1,.pager .arrow2{display:block;text-indent:-9999px;overflow:hidden;width:18px;height:6px}
+.pager .arrow1{background:url(../images/arrow4.gif) 100% 0 no-repeat;padding:0 0 0 5px}
+.pager .arrow2{background:url(../images/arrow4.gif) 0 -6px no-repeat;padding:0 5px 0 0}
+
+.change_interface{padding:15px 0 0 0;height:25px}
+.change_interface a.change{float:right;background:url(../images/change_interface.gif) 0 2px no-repeat;
+font-size:10px;line-height:15px;height:15px;padding:0 0 1px 25px}
+.change_interface a{float:right;font-size:10px;line-height:15px;height:15px;padding:0 10px 1px 0}
+
+.refresh{float:right;line-height:19px;height:19px}
+.refresh input{vertical-align:-10%;margin:0 3px 0 0}
+
+a.to_add,a.to_del{float:left;margin:0 0 0 12px;height:20px;line-height:20px;font-size:10px;text-decoration:none;}
+a.to_add:link,
+a.to_add:visited,
+a.to_add:hover{padding:0 10px 0 24px; background:url(../images/plus.gif) 10px 50% no-repeat #d2d2d2}
+a.to_del:link,
+a.to_del:visited,
+a.to_del:hover{padding:0 10px 0 24px; background:url(../images/delete.gif) 10px 50% no-repeat #dedede}
+
+.pe_selection{border: 1px solid red; position: relative; left: 0px; top: 0px; width: 0px; height: 0px}
+.options_read{border: 0px; background: #fff; width: 100%; overflow: visible; color: #4e4e4e}
+.options_write{border: 1px solid #cacaca; display: block; background: #fff; width: 100%; overflow: visible}
+
+.actions{background: #dedede; width: 100%; padding: 10px}
+
+.collection{width: 100%; padding: 10px; border: 1px solid #000}
+.collection .left{float: left}
+.collection .left table{border: 0px}
+.collection .left table td{border: 1px solid #cacaca; padding: 10px; text-align: center; vertical-align: top}
+.collection .left table td:hover{background: #eeeeee}
+.collection .left table td img{border: 1px solid #d3d3d3; display: block; background: #fff; padding: 3px; margin: auto}
+
+.collection .right{background: #eeeeee; width: 120px; float: right}
+
+.image_name{padding: 5px; text-align: center}

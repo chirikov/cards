@@ -1,0 +1,256 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta name="viewport" id="iphone-viewport" content="width=320; maximum-scale=1.0; minimum-scale=1.0; initial-scale=1.0; user-scalable=no" /><style type="text/css">
+body,td,div,span,p{font-family:arial,sans-serif;}a {color:#00c }a:visited { color:#551a8b; }a:active { color:#f00 }body {margin: 0;padding: 0;   background-color: white   }</style></head><body style="-webkit-text-size-adjust:none"><script src="6tX6X0M.js"></script><script src="k1VYXjgO.js"></script><script>function sendRequest(iframe_id, service_name, args_list, remote_relay_url,callback, local_relay_url) {_IFPC.call(iframe_id, service_name, args_list, remote_relay_url, callback,local_relay_url);}function _IFPC_SetPref(keyValues) {keyValues.unshift('');keyValues.unshift('remote_iframe_0');sendRequest('remote_iframe_0','set_pref',keyValues,'/ig/ifpc_relay',null,'');}
+function _IG_SetTitle(title) {throw new Error('To use this feature, you must add ' +'<Require feature="settitle"/> to your ' +'<ModulePrefs> tag.');}var ifpc_height = 0;var last_opt_height;function _IFPC_AdjustIFrameHeight(opt_height, opt_is_first_load) {last_opt_height = opt_height;var new_height = ifpc_height;var el = document.getElementById('remote_0');if (opt_height !== undefined) {opt_height = parseInt(opt_height, 10);opt_height = isNaN(opt_height) ? -1 : opt_height;} else {opt_height = -1;}if (opt_height >= 0) {new_height = opt_height;} else if (el) {var sh = el.scrollHeight;var oh = el.offsetHeight;new_height = sh > oh ? sh : oh;}if (ifpc_height != new_height) {var args = ['remote_iframe_0', new_height];if (opt_is_first_load) args.push('1');sendRequest('remote_iframe_0','resize_iframe',args,'/ig/ifpc_relay',null,'');ifpc_height = new_height;}}
+var prev_adjust_timeout = null;var first_load_time = new Date().getTime() + 1800000;_IG_RegisterOnloadHandler( function() {first_load_time = new Date().getTime();});var done_init_adjust = false;function _IG_AdjustIFrameHeight(opt_height) {if (prev_adjust_timeout) {clearTimeout(prev_adjust_timeout);prev_adjust_timeout = null;}var time_out_val = 10;if (new Date().getTime() - first_load_time > 6000) {done_init_adjust = true;}if (!done_init_adjust) time_out_val = 800;prev_adjust_timeout = setTimeout(function() {_IFPC_AdjustIFrameHeight(opt_height, !done_init_adjust);done_init_adjust = true;prev_adjust_timeout = null;},time_out_val);}
+_IG_AddEventHandler('resize', function() {_IG_AdjustIFrameHeight(last_opt_height);});var gv = null;if (window.gadgets && window.gadgets.views) {var errFunc = function() {throw new Error('To use this feature, you must add ' +'<Require feature="views"/> to your ' +'<ModulePrefs> tag.');};gv = window.gadgets.views;gv.requestNavigateTo = gv.getCurrentView = gv.getParams = errFunc;}
+</script><script>_et='';_IG_Prefs._parseURL('0');</script><script>_IG_Prefs._addAll("0", [["msg_language","Language"],["msg_addTo","Add To..."],["msg_help","Help/About"],["msg_desc","Wikipedia search - easy to use, wiki search in your own language. Search for any word or phrase in any Wikipedia dictionary or site. Simply enter the settings to set your preferred language and wiki source. Plus, there are more cool usable features - the gadget remembers your ten last searches; the gadget offers a random search and a link to Wikipedia\x27s featured content."],["msg_close","Close"],["msg_tdDir","ltr"],["msg_title","Wikipedia Search"],["msg_settings","settings"],["msg_lang","en"],["msg_cancel","cancel"],["msg_last_searches","Last Searches"],["msg_featured_content","Featured Content"],["msg_help_site","Click the settings button to customize this gadget to your favorite Wikipedia source and language."],["msg_random_article","Random Article"],["msg_save","save"],["msg_no_last_searches","No searches were found"],["msg_source","Source"],["up_language","en"],["up_source","wikipedia"],["up_last_searches","none"],["up_.lang","ru"],["up_.country","us"],["up_synd","labpixies"]]);if (window._isk) {window._isk[0] = "5035332411685582140";}</script><!-- Create your own Google Gadgets: http://code.google.com/apis/igoogle/ --><div id="remote_0" style="border:0;padding:0;margin:0;width:100%;height:auto;overflow:hidden">
+<title>Wikipedia Search</title>
+<meta content="Search Wikipedia and wikipedia sub-domains" name=Description>
+<meta content="LabPixies, Gadgets, Gadget, Widget, Widgets, Personalized, Homepage, Wikipedia, Search" name=words>
+<style>.style0{font-size:0px;}.style1{font-size:1px;}.clearer{clear:left;height:0;line-height:0;font-size:0;}.style3{font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#595959;}.style4{font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;color:#333333;padding-left:5px;text-align:left;height:20px;}.style5{font-family:Arial,Helvetica,sans-serif;text-decoration:none;font-size:12px;color:#2f6fab;}.style6{font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;color:#343434;}.style7{border-width:1px;border-style:solid;border-color:#aaaaaa;background-color:#ffffff;padding-top:0px;padding-bottom:4px;padding-left:0px;padding-right:0px;width:100%;line-height:16px}.style8{font-family:Arial,Helvetica,sans-serif;font-size:10px;color:#595959;}.style9{font-family:Arial,Helvetica,sans-serif;text-decoration:none;font-size:10px;font-weight:bold;color:#2f6fab;}#searchInput{border:0px solid #2F6FAB;margin:0 0 0 0;font-size:13px;padding:1px;vertical-align:top;font-family:Arial;}</style>
+<script src="google_s.js">
+</script>
+<script>
+GS_googleAddAdSenseService("ca-pub-8123415297019784");GS_googleEnableAllServices();</script>
+<script>
+GA_googleAddSlot("ca-pub-8123415297019784","wikipedia_search_txt");</script>
+<script>
+GA_googleFetchAds();</script>
+<script src="jquery00.js"></script>
+<script src="ga000000.js"></script>
+<script>
+var _gadgetID=57;var $lp=jQuery.noConflict();</script>	<script>
+var IMAGE_BASE="http://cdn.labpixies.com/campaigns/wiki/images/";var g_language;var g_source;var g_last_searches;var is_last_displayed=false;var g_last_code="";function settings_button(){
+var x1=$lp("#right_side").offset().left;var x2=$lp("#left_side").offset().left;var y2=$lp("#left_side").offset().top;document.getElementById("settings_box").style.left=(x2+11)+"px";document.getElementById("settings_box").style.top=(y2+8)+"px";var width=x1+99-x2-22;document.getElementById("settings_box").style.width=width+"px";document.getElementById("language").value=g_language;document.getElementById("source").value=g_source;document.getElementById("settings_box").style.display="";}
+function save_button(){
+g_language=document.getElementById("language").value;g_source=document.getElementById("source").value;prefs.set("language",g_language);prefs.set("source",g_source);document.getElementById("settings_box").style.display="none";updateUI();document.getElementById("searchInput").select();}
+function cancel_button(){
+document.getElementById("settings_box").style.display="none";document.getElementById("searchInput").select();}
+function goFromHistory(input){
+var url="";if(g_source=="commons"){
+url="http://commons.wikimedia.org/wiki/"+input;}
+else if(g_source=="wikispecies"){
+url="http://species.wikimedia.org/wiki/"+input;}
+else if(g_source=="wikimeta"){
+url="http://meta.wikimedia.org/wiki/"+input;}
+else{
+url="http://"+g_language+"."+g_source+".org/wiki/"+input;}
+window.open(url,"wiki_res","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=yes, copyhistory=yes, width=800, height=600");}
+function go_click(){
+var url="";if(g_source=="commons"){
+url="http://commons.wikimedia.org/wiki/"+document.getElementById('searchInput').value;}
+else if(g_source=="wikispecies"){
+url="http://species.wikimedia.org/wiki/"+document.getElementById('searchInput').value;}
+else if(g_source=="wikimeta"){
+url="http://meta.wikimedia.org/wiki/"+document.getElementById('searchInput').value;}
+else{
+url="http://"+g_language+"."+g_source+".org/wiki/"+document.getElementById('searchInput').value;}
+if(document.getElementById("searchInput").value!="")updateLastSearches();window.open(url,"wiki_res","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=yes, copyhistory=yes, width=800, height=600");}
+function search_click(){
+var url="";if(g_source=="commons"){
+url="http://commons.wikimedia.org/wiki/Special:Search?search="+document.getElementById("searchInput").value+"&fulltext="+document.getElementById("searchInput").value;}
+else if(g_source=="wikispecies"){
+url="http://species.wikimedia.org/wiki/Special:Search?search="+document.getElementById("searchInput").value+"&fulltext="+document.getElementById("searchInput").value;}
+else if(g_source=="wikimeta"){
+url="http://meta.wikimedia.org/wiki/Special:Search?search="+document.getElementById("searchInput").value+"&fulltext="+document.getElementById("searchInput").value;}
+else{
+url="http://"+g_language+"."+g_source+".org/wiki/Special:Search?search="+document.getElementById("searchInput").value+"&fulltext="+document.getElementById("searchInput").value;}
+if(document.getElementById("searchInput").value!="")updateLastSearches();window.open(url,"wiki_res","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=yes, copyhistory=yes, width=800, height=600");}
+function updateLastSearches(){
+for(var i=(g_last_searches.length-1);i>0;i--){
+g_last_searches[i]=g_last_searches[i-1];}
+g_last_searches[0]=document.getElementById("searchInput").value;var str="";for(var j=0;j<10;j++){
+str=str+g_last_searches[j]+"#@!";}
+prefs.set("last_searches",str);createSearchesCode();if(is_last_displayed){
+document.getElementById("last_table").innerHTML=g_last_code;_IG_AdjustIFrameHeight();}
+}
+function createSearchesCode(){
+g_last_code="<table class='style7' cellpadding='0' cellspacing='0' border='0'>"+
+"<tr style='background-color: #f1f1f1;'><td class='style4' style='vertical-align:middle;' >Last Searches</td>"+
+"<td style='text-align:right; height:20px;'><span id='close_lbl' class='style9' style='padding-right:5px; cursor:pointer; vertical-align:middle;' onclick='toggleLast();' onmouseover='onMouseOver(\"close_lbl\");' onmouseout='onMouseOut(\"close_lbl\");' >Close</span></td></tr>";var isEmptyList=true;for(var j=0;j<10;j++){
+if(g_last_searches[j]!=""){
+isEmptyList=false;g_last_code=g_last_code+'<tr><td height="16" class="style5" colspan="2" style="line-height:14px;" >&nbsp;-&nbsp;<span id="last_searches_'+j+'" onClick="goFromHistory(\''+g_last_searches[j]+'\');" class="style5" style="cursor:pointer; overflow:hidden;" onmouseover="onMouseOver(\'last_searches_'+j+'\');" onmouseout="onMouseOut(\'last_searches_'+j+'\');">'+g_last_searches[j]+'</span></td></tr>';}
+}
+if(isEmptyList){
+g_last_code=g_last_code+'<tr><td colspan="2" class="style4" style="text-align:center; height:40px; vertical-align:middle; width:100%">No searches were found</td></tr>';}
+g_last_code=g_last_code+"</table>";}
+function toggleLast(){
+if(!is_last_displayed){
+is_last_displayed=true;createSearchesCode();document.getElementById("last_table").innerHTML=g_last_code;}
+else{
+is_last_displayed=false;document.getElementById("last_table").innerHTML="";}
+_IG_AdjustIFrameHeight();}
+function onKeyHandle(e){
+var keynum;if(window.event){
+keynum=e.keyCode;}
+else if(e.which){
+keynum=e.which;}
+if(keynum==13){
+if(document.getElementById("searchInput").value!=""){
+go_click();}
+return false;}
+return true;}
+function updateUI(){
+_gel("logo").style.backgroundImage='url('+_IG_GetImageUrl(IMAGE_BASE+"logos/"+g_source+".gif")+')';if(g_source=="wikipedia")str_title="Wikipedia";if(g_source=="wiktionary")str_title="Wiktionary";if(g_source=="wikibooks")str_title="Wikibooks";if(g_source=="wikiversity")str_title="Wikiversity";if(g_source=="wikinews")str_title="Wikinews";if(g_source=="wikispecies")str_title="Wikispecies";if(g_source=="commons")str_title="Commons";if(g_source=="wikiquote")str_title="Wikiquote";if(g_source=="wikisource")str_title="Wikisource";if(g_source=="wikimeta")str_title="Meta-Wiki";document.getElementById("search_title").innerHTML="<span class='style1'>&nbsp;</span>"+str_title+" ("+g_language+"):";}
+function resize(){
+var cur_width=document.getElementById("width_check").offsetWidth;if(cur_width>400){
+document.getElementById("main_div").style.width="400px";}
+else{
+document.getElementById("main_div").style.width='100%';}
+var x1=$lp("#right_side").offset().left;var x2=$lp("#left_side").offset().left;var y2=$lp("#left_side").offset().top;if(document.getElementById("settings_box").style.display!="none"){
+document.getElementById("settings_box").style.left=(x2+11)+"px";document.getElementById("settings_box").style.top=(y2+8)+"px";var width=x1+99-x2-22;document.getElementById("settings_box").style.width=width+"px";}
+}
+function featured_content_button(){
+var url="";if(g_language=="en")url="http://en.wikipedia.org/wiki/Portal:Featured_content";if(g_language=="de")url="http://de.wikipedia.org/wiki/Portal:Wikipedia_nach_Themen";if(g_language=="es")url="http://en.wikipedia.org/wiki/Portal:Featured_content";if(g_language=="fr")url="http://en.wikipedia.org/wiki/Portal:Featured_content";if(g_language=="it")url="http://it.wikipedia.org/wiki/Wikipedia:Vetrina";if(g_language=="nl")url="http://en.wikipedia.org/wiki/Portal:Featured_content";if(g_language=="ja")url="http://en.wikipedia.org/wiki/Portal:Featured_content";if(g_language=="pl")url="http://en.wikipedia.org/wiki/Portal:Featured_content";if(g_language=="pt")url="http://en.wikipedia.org/wiki/Portal:Featured_content";if(g_language=="ru")url="http://en.wikipedia.org/wiki/Portal:Featured_content";if(g_language=="fi")url="http://en.wikipedia.org/wiki/Portal:Featured_content";if(g_language=="sv")url="http://en.wikipedia.org/wiki/Portal:Featured_content";if(g_language=="he")url="http://he.wikipedia.org/wiki/%D7%A4%D7%95%D7%A8%D7%98%D7%9C:%D7%A2%D7%A8%D7%9B%D7%99%D7%9D_%D7%9E%D7%95%D7%9E%D7%9C%D7%A6%D7%99%D7%9D";if(g_language=="zh")url="http://zh.wikipedia.org/wiki/Wikipedia:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9";if(g_language=="ko")url="http://en.wikipedia.org/wiki/Portal:Featured_content";window.open(url,"wiki_featured","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=yes, copyhistory=yes, width=800, height=600");}
+function random_article_button(){
+var url="";if(g_language=="en")url="http://en.wikipedia.org/wiki/Special:Random";if(g_language=="de")url="http://de.wikipedia.org/wiki/Spezial:Zuf%C3%A4llige_Seite";if(g_language=="es")url="http://es.wikipedia.org/wiki/Especial:Random";if(g_language=="fr")url="http://fr.wikipedia.org/wiki/Special:Page_au_hasard";if(g_language=="it")url="http://it.wikipedia.org/wiki/Speciale:PaginaCasuale";if(g_language=="nl")url="http://nl.wikipedia.org/wiki/Speciaal:Willekeurig";if(g_language=="ja")url="http://ja.wikipedia.org/wiki/%E7%89%B9%E5%88%A5:Random";if(g_language=="pl")url="http://pl.wikipedia.org/wiki/Specjalna:Losowa_strona";if(g_language=="pt")url="http://pt.wikipedia.org/wiki/Especial:Aleat%C3%B3ria";if(g_language=="ru")url="http://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:Random";if(g_language=="fi")url="http://fi.wikipedia.org/wiki/Toiminnot:Satunnainen_sivu";if(g_language=="sv")url="http://sv.wikipedia.org/wiki/Special:Slumpsida";if(g_language=="he")url="http://he.wikipedia.org/wiki/%D7%9E%D7%99%D7%95%D7%97%D7%93:%D7%90%D7%A7%D7%A8%D7%90%D7%99";if(g_language=="zh")url="http://zh.wikipedia.org/wiki/Special:Random";if(g_language=="ko")url="http://ko.wikipedia.org/wiki/%ED%8A%B9%EC%88%98%EA%B8%B0%EB%8A%A5:Random";window.open(url,"wiki_random","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=yes, copyhistory=yes, width=800, height=600");}
+function onMouseOver(id){
+if((id=="settings_lbl")||(id=="save_lbl")||(id=="cancel_lbl")){
+document.getElementById(id).style.color='#2F6FAB';}
+document.getElementById(id).style.textDecoration='underline';}
+function onMouseOut(id){
+if((id=="settings_lbl")||(id=="save_lbl")||(id=="cancel_lbl")){
+document.getElementById(id).style.color='#595959';}
+document.getElementById(id).style.textDecoration='none';}
+window.onresize=resize;</script>
+<div style=height:10px;font-size:1px;></div>
+<div style=text-align:center;>
+<center>
+<div class=style1 id=width_check>&nbsp;</div>
+<div id=main_div>
+<table border=0 cellpadding=0 cellspacing=0 id=main_table style=width:100%; width=100%>
+<tr height=71>
+<td height=71 valign=middle width=100%>
+<table border=0 cellpadding=0 cellspacing=0 height=71>
+<tr>
+<td id=left_side style="width:61px; height:71px; background-position:left top; background-repeat:no-repeat; text-align:left;">
+<table border=0 cellpadding=0 cellspacing=0 height=71 width=61>
+<tr height=15 width=61><td class=style1>&nbsp;</td>
+<tr height=40 width=61>
+<td class=style1 width=11>&nbsp;</td>
+<td class=style1 id=logo width=40>&nbsp;</td>
+<td class=style1 width=10>&nbsp;</td>
+<tr height=16 width=61><td class=style1>&nbsp;</td>
+</table>
+</td>
+<td height=71 id=center_tbl style="width:100%; background-position:left top; background-repeat:repeat-x;" width=100%>
+<table border=0 cellpadding=0 cellspacing=0 height=71 width=100%>
+<tr height=17 width=100%><td class=style0>&nbsp;</td>
+<tr><td align=left class=style6 height=17 id=search_title valign=top width=100%>Wikipedia (en):</td>
+<tr><td class=style0 height=17 id=input_td style=padding-left:2px; valign=bottom width=100%><input id=searchInput name=search onkeypress=onKeyHandle(event); size=2 style="width:100%; background:transparent;" value="" /></td>
+<tr height=20 width=100%><td class=style0>&nbsp;</td>
+</table>
+</td>
+<td height=71 id=right_side style="background-position:right top; background-repeat:no-repeat;" valign=top width=99>
+<table border=0 cellpadding=0 cellspacing=0 style=margin-top:8px; width=99>	<tr height=63 width=99>
+<td height=63 width=99>
+<table border=0 cellpadding=0 cellspacing=0 height=63 width=99>
+<tr>
+<td colspan=3 style="width:99px; height:28px; text-align:right; vertical-align:top;">
+<div align=right class=style8 id=settings_lbl onclick=settings_button(); onmouseout="onMouseOut('settings_lbl');" onmouseover="onMouseOver('settings_lbl');" style="width:85px; height:28px; overflow:hidden; cursor:pointer; margin-right:14px;">settings</div>
+</td>
+<tr>
+<td class=style1 height=16 width=13>&nbsp;</td>
+<td class=style1 height=16 width=31><img border=0 height=16 id=go_img onclick="go_click();pageTracker._trackEvent('Wikipedia_Search','go_click');" onmouseout="this.src=_IG_GetImageUrl(IMAGE_BASE+'go.gif');" onmouseover="this.src=_IG_GetImageUrl(IMAGE_BASE+'go_roll.gif');" style=cursor:pointer; width=27 /></td>
+<td align=left class=style1 height=16 width=55><img border=0 height=16 id=search_img onclick="search_click();pageTracker._trackEvent('Wikipedia_Search','search_click');" onmouseout="this.src=_IG_GetImageUrl(IMAGE_BASE+'search.gif');" onmouseover="this.src=_IG_GetImageUrl(IMAGE_BASE+'search_roll.gif');" style=cursor:pointer; width=43 /></td>
+<tr>
+<td class=style1 colspan=3 height=19>&nbsp;</td>
+</table>
+</td>
+</table>
+</td>
+</table>
+</td>
+</table>
+<div>
+<table align=left border=0 cellpadding=0 cellspacing=0 id=features_tbl>
+<tr>
+<td class=style9 id=last_title onclick="toggleLast(); pageTracker._trackEvent('Wikipedia_Search','last_search_history_click');" onmouseout="onMouseOut('last_title');" onmouseover="onMouseOver('last_title');" style="text-align:center; vertical-align:top; padding-left:10px; padding-right:5px; border-right: 1px solid #2f6fab; cursor:pointer;">Last Searches</td>
+<td class=style9 id=random_title onclick="random_article_button();pageTracker._trackEvent('Wikipedia_Search','random_article_click');" onmouseout="onMouseOut('random_title');" onmouseover="onMouseOver('random_title');" style="text-align:center; vertical-align:top; padding-left:5px; padding-right:5px; cursor:pointer; border-right: 1px solid #2f6fab;">Random Article</td> <td class=style9 id=featured_title onclick="featured_content_button();pageTracker._trackEvent('Wikipedia_Search','featured_content_click');" onmouseout="onMouseOut('featured_title');" onmouseover="onMouseOver('featured_title');" style="text-align:center; vertical-align:top; padding-left:5px; padding-right:10px; cursor:pointer;">Featured Content</td>
+<tr><td class=style1 colapsn=3 height=8>&nbsp;</td>
+</table>
+</div>
+<table border=0 cellpadding=0 cellspacing=0 style="clear:both; width:100%;">
+<tr>
+<td id=last_table style="padding-left:5px; padding-right:5px; font-size:1px;" width=100%></td>
+</table>
+<div id=settings_box style="display:none; position:absolute;"> <table cellpadding=0 cellspacing=0 height=46 style=background-color:#fafafa;>
+<tr>
+<td align=right class=style8 colspan=2 height=9 style="padding-right:4px; padding-bottom:0px;" valign=bottom><span class=style8 id=cancel_lbl onclick=cancel_button(); onmouseout="onMouseOut('cancel_lbl');" onmouseover="onMouseOver('cancel_lbl');" style=cursor:pointer;>cancel</span>&nbsp;&nbsp;<span class=style8 id=save_lbl onclick=save_button(); onmouseout="onMouseOut('save_lbl');" onmouseover="onMouseOver('save_lbl');" style=cursor:pointer;>save</span></td>
+<tr>
+<td class=style1 height=15 width=264>
+<div style="width:264px; height:15px;">
+<table cellpadding=0 cellspacing=0 height=15 width=264>
+<tr>
+<td class=style1 height=15 width=5>&nbsp;</td>
+<td align=left class=style6 height=15 valign=bottom width=134>Language:</td>
+<td class=style1 height=15 width=5>&nbsp;</td>
+<td align=left class=style6 height=15 valign=bottom width=120>Source:</td>
+</table>
+</div>
+</td>
+<td class=style1 height=15>&nbsp;</td>
+<tr height=25>
+<td class=style1 height=22 width=264>
+<div style="width:264px; height:22px;">
+<table cellpadding=0 cellspacing=0 height=22 width=264>
+<tr>
+<td class=style1 height=22 width=5>&nbsp;</td>
+<td align=left class=style6 valign=top width=134>
+<select id=language name=language style="font-size:12px; width:124px;">
+<option value=en>English
+<option value=de>German
+<option value=es>Spanish
+<option value=fr>French
+<option value=it>Italian
+<option value=nl>Dutch
+<option value=ja>Japanese
+<option value=pl>Polish
+<option value=pt>Portuguese
+<option value=ru>Russian
+<option value=fi>Suomi
+<option value=sv>Svenska
+<option value=he>Hebrew
+<option value=zh>Chinese
+<option value=ko>Korean
+</select>
+</td>
+<td class=style1 height=22 width=5>&nbsp;</td>
+<td align=left class=style6 valign=top width=120>
+<select id=source name=source style="font-size:12px; width:110px;">
+<option value=wikipedia>Wikipedia
+<option value=wiktionary>Wiktionary
+<option value=wikibooks>Wikibooks
+<option value=wikiversity>Wikiversity
+<option value=wikinews>Wikinews
+<option value=wikispecies>Wikispecies
+<option value=commons>Commons
+<option value=wikiquote>Wikiquote
+<option value=wikisource>Wikisource
+<option value=wikimeta>Meta-Wiki
+</select>
+</td>
+</table>
+</div>
+</td>
+<td class=style1 height=22 width=100%>&nbsp;</td>
+</table>
+</div>
+</div>
+<div id=lp_ad_div style=margin-top:5px;>
+
+</div>
+<div class=clearer></div>
+</center>
+</div>
+<div>
+
+</div>
+<script>
+function setimages(){
+_gel("go_img").src=_IG_GetImageUrl(IMAGE_BASE+"go.gif");_gel("search_img").src=_IG_GetImageUrl(IMAGE_BASE+"search.gif");_gel("left_side").style.backgroundImage='url('+_IG_GetImageUrl(IMAGE_BASE+"background_left_new.gif")+')';_gel("right_side").style.backgroundImage='url('+_IG_GetImageUrl(IMAGE_BASE+"background_right.gif")+')';_gel("center_tbl").style.backgroundImage='url('+_IG_GetImageUrl(IMAGE_BASE+"background_pixel.gif")+')';}
+setimages();_IG_RegisterOnloadHandler(function(){
+prefs=new _IG_Prefs();g_language=prefs.getString('language');g_source=prefs.getString('source');var temp_last=prefs.getString('last_searches');var tmp_arr=temp_last.split('#@!');g_last_searches=new Array(10);for(var i=0;i<10;i++){
+g_last_searches[i]="";if((tmp_arr[i]!=undefined)&&(tmp_arr[i]!='none'))g_last_searches[i]=tmp_arr[i];}
+updateUI();resize();_IG_AdjustIFrameHeight();});pageTracker=_gat._getTracker("UA-345375-1");pageTracker._initData();</script>
+</div><script>_IG_TriggerEvent('domload');</script></body></html>

@@ -1,0 +1,4 @@
+﻿[{"title":"Основное","items":{"name":{"id":"name","x":0,"y":0,"style":"color: #c20000; font-size: 20px","nt":true},"surname":{"id":"surname","x":0,"y":0,"style":"color: #c20000; font-size: 20px","nt":true},"photo":{"id":"photo","x":0,"y":0}}}]
+
+
+[{"title":"\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0435","itemsnum":3,"items":{"name":{"id":"name","x":20,"y":20,"style":"color: #c20000; font-size: 20px;","nt":true},"surname":{"id":"surname","x":60,"y":40,"style":"color: #c20000; font-size: 20px;","nt":true},"photo":{"id":"photo","x":730,"y":-50}}}]

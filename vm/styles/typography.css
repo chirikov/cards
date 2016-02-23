@@ -1,0 +1,7 @@
+body,input,select,select option,textarea{font-family:verdana,arial,sans-serif;font-size:12px;}
+
+body{line-height:1.2;color:#4e4e4e}
+input,select,select option,textarea{color:#000}
+
+a:link,a:visited{color:#4e4e4e;text-decoration:underline}
+a:hover{color:#4e4e4e;text-decoration:none}

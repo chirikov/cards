@@ -1,0 +1,30 @@
+* html .window1 .title .in .in .refresh{padding:2px 0 0 0}
+.window1 .title .in .in .refresh input{margin:0;vertical-align:middle;}
+
+.window1 .posts .message1 .buttons{position:relaive;}
+
+* html .menu2 a:link ins,* html .menu2 a:visited ins{background:transparent}
+* html .menu2 a:hover ins{background:#d9d9d9;color:#000}
+
+.my_mail .tabs a.small:link,.my_mail .tabs a.small:visited{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100)}
+.my_mail .tabs a.small:hover{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=75)}
+
+.start .start_form .enter a:link,.start .start_form .enter a:visited{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100)}
+.start .start_form .enter a:hover{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=75)}
+
+.rent .buy .buttons a.to_buy:link,.rent .buy .buttons a.to_buy:visited{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100)}
+.rent .buy .buttons a.to_buy:hover{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=75)}
+.rent .buy .buttons a.to_rent:link,.rent .buy .buttons a.to_rent:visited{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100)}
+.rent .buy .buttons a.to_rent:hover{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=75)}
+
+.help_text .rate .torate a:link,.help_text .rate .torate a:visited{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100)}
+.help_text .rate .torate a:hover{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=75)}
+
+.ext_support .to_ask a:link,.ext_support .to_ask a:visited{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100)}
+.ext_support .to_ask a:hover{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=75)}
+
+div.contacts .contacts_search{height:21px;padding:6px 0 0 33px}
+
+div.contacts .contacts_list div.item table.item .buttons a:link,
+div.contacts .contacts_list div.item table.item .buttons a:visited{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100)}
+div.contacts .contacts_list div.item table.item .buttons a:hover{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=75)}

@@ -1,0 +1,30 @@
+
+.form{background: #fffebf; width: 380px; margin: 0 auto}
+.form .form_pad{padding: 0 23px; margin: 0 auto} 
+
+.form .top_corners{background: url(../images/form_corners.gif) 0 0 no-repeat}
+.form .top_corners i{display: block; height: 10px; overflow: hidden; text-indent: -9999px; background: url(../images/form_corners.gif) 100% -10px no-repeat}
+.form .bottom_corners{background: url(../images/form_corners.gif) 0 -30px no-repeat}
+.form .bottom_corners i{display: block; height: 10px; overflow: hidden; text-indent: -9999px; background: url(../images/form_corners.gif) 100% -20px no-repeat}
+
+.form h2{color: #c20000; font-size: 16px; font-weight: normal; text-align: center; padding: 0 0 15px 0}
+
+.form table.form_table{margin: 0 auto; border: 0px solid}
+.form .form_table td{padding: 5px; border: 0px solid}
+.form .form_table td{width: 80px}
+.form .form_table td+td{}
+.form .form_table td+td+td{width: auto; padding-left: 5px}
+.form .form_table label{color: #000}
+.form .form_table a{font-size: 10px}
+.form .form_table a:link, .form .form_table a:visited, .form .form_table a:hover{color: #555}
+.form .form_table input{background: #fff; border: 1px solid #cacaca; display: block; width: 140px; padding: 2px; font-size: 12px}
+
+.form .enter{padding: 5px 0 10px 0}
+.form .enter a{display: block; background: url(../images/enter.gif) 0 0 no-repeat; width: 104px; height: 20px; line-height: 20px; margin:0 auto; text-align: center; text-decoration: none}
+.form .enter a:link, .form .enter a:visited{color: #555; text-decoration: none; opacity: 0.99}
+.form .enter a:hover{color: #555; opacity: 0.75}
+
+.form .other_computer{font-size: 10px; color: #555; text-align: center; vertical-align: middle}
+.form .other_computer input{vertical-align: middle; margin: 3px 8px 3px 3px; width: 13px; height: 13px}
+
+.form .result{border: 2px solid #f20000; text-align: center; padding: 5px; margin: 0 10px 0 10px; display: none}

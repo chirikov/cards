@@ -1,0 +1,38 @@
+.my_mail{border:0}
+.my_mail table.posts{width:100%}
+.my_mail td{padding:6px 6px;border:1px solid #cacaca;vertical-align:top}
+.my_mail > td{width:120px}
+.my_mail td+td{width:170px}
+.my_mail td+td+td{width:540px}
+.my_mail thead td{background:#cacaca;color:#fff}
+.my_mail tbody td{color:#555;font-size:10px;}
+.my_mail .message_date{font-size:9px;padding:0 8px 8px 8px}
+
+.my_mail td a.more{float:right;margin:0 0 5px 10px}
+.my_mail td a.more img{display:block;padding:2px 3px}
+
+.my_mail td.message1{padding:0;width:auto;cursor:default}
+.my_mail div.message1{background:#fffebf;padding:10px 0 0 0;border:3px solid #cacaca;border-width:3px 0}
+.my_mail .message1 table{}
+.my_mail .message1 tr{cursor:default}
+.my_mail .message1 td{border:0;padding:0;width:80px}
+.my_mail > .message1 td{width:auto}
+.my_mail .message1 td+td{width:auto}
+.my_mail td .message1 a.more{margin:-20px 6px 5px 10px}
+.my_mail td .message1 .message_text{padding:0 10px 0 8px}
+.my_mail td .message1 .message_text table{}
+.my_mail .message1 .message_text td{padding:0 0 7px 0}
+.my_mail > .message1 .message_text td{width:80px}
+.my_mail .message1 .message_text td+td{width:auto}
+.my_mail .message1 .buttons{height:30px;float:right;padding:0 35px 0 0}
+.my_mail .message1 .buttons a{float:left;height:19px;line-height:19px;width:83px;text-align:center;font-size:11px;margin:0 0 0 4px;padding:0 0 1px 0}
+.my_mail .message1 .buttons a.answer:link,.my_mail .message1 .buttons a.answer:visited,.my_mail .message1 .buttons a.answer:hover{background:#d2d2d2;text-decoration:none}
+.my_mail .message1 .buttons a.delete:link,.my_mail .message1 .buttons a.delete:visited,.my_mail .message1 .buttons a.delete:hover{background:#e3e3e3;text-decoration:none}
+.my_mail .message1 .cl{height:1px;overflow:hidden;text-indent:-9999px;clear:both}
+
+.my_mail .message1 .answer_text{border-top:1px solid #dcdcdc;padding:8px 0 0 8px}
+.my_mail .message1 .answer_text td{padding:0 0 7px 0}
+.my_mail > .message1 .answer_text td{width:80px}
+.my_mail .message1 .answer_text td+td{width:auto}
+.my_mail .message1 .answer_text input{display:block;border:1px solid #cacaca;background:#fff;padding:3px;width:493px;font-size:10px}
+.my_mail .message1 .answer_text textarea{display:block;border:1px solid #cacaca;background:#fff;padding:3px;width:690px;height:70px;font-size:10px;overflow:auto}

@@ -1,0 +1,446 @@
+*{margin:0;padding:0}
+
+html{height:100%;background:#fff url(../images/bg1.gif) 0 0 repeat-x;min-width:910px}
+
+body{min-height:100%;background:url(../images/bg2.gif) 50% 0 no-repeat}
+
+* html body{height:100%}
+
+img{border:0}
+
+table{border-collapse:collapse}
+
+.main{min-width:890px;padding:13px 0 0 0}
+.carcass{width:875px;margin:0 auto}
+
+table.head{width:100%}
+td.head{padding:0 0 52px 0}
+
+
+.logo{width:227px;position:relative;float:left}
+.logo a{display:block}
+.logo a img{display:block}
+.logo a img.img{width:62px;height:74px}
+.logo a img.text{position:absolute;left:83px;top:18px;width:142px;height:19px}
+
+.logo .slogan{position:absolute;left:80px;top:44px}
+.logo .slogan span{border-top:1px solid #7d7d7d;color:#191919;font-family:tahoma,arial,sans-serif;
+width:141px;padding:4px 3px 4px 3px;text-align:center;display:block;font-size:10px}
+
+
+.logo_explorer{width:255px;position:relative;float:left}
+.logo_explorer a{display:block}
+.logo_explorer a img{display:block}
+.logo_explorer a img.img{width:62px;height:74px}
+.logo_explorer a img.text{position:absolute;left:83px;top:18px;width:169px;height:23px}
+
+.logo_explorer .slogan{position:absolute;left:80px;top:44px}
+.logo_explorer .slogan span{border-top:1px solid #7d7d7d;color:#191919;font-family:tahoma,arial,sans-serif;
+width:168px;padding:4px 3px 4px 3px;text-align:center;display:block;font-size:10px}
+
+.logo_2ndrussia{width:255px;position:relative;float:left}
+.logo_2ndrussia a{display:block}
+.logo_2ndrussia a img{display:block}
+.logo_2ndrussia a img.img{width:62px;height:74px}
+.logo_2ndrussia a img.text{position:absolute;left:83px;top:18px;width:178px;height:19px}
+
+.logo_2ndrussia .slogan{position:absolute;left:80px;top:44px}
+.logo_2ndrussia .slogan span{border-top:1px solid #7d7d7d;color:#191919;font-family:tahoma,arial,sans-serif;
+width:177px;padding:4px 3px 4px 3px;text-align:center;display:block;font-size:10px}
+
+
+.head_right{width:615px;float:right}
+.head_right .search{height:48px;width:107px;margin:0 0 0 auto;padding:2px 10px 0 28px;
+background:url(../images/search.gif) 0 0 no-repeat}
+.head_right .search input{width:107px;height:16px;border:0;font-family:arial,sans-serif;background:#fff;
+font-size:14px;overflow:hidden}
+
+.menu{float:right}
+.menu a{margin:0 0 0 16px;float:left;font-size:12px}
+.menu a:link,.menu a:visited,.menu a:hover{color:#0085d5}
+
+.left_column{width:200px;float:left}
+.right_column{float:right;width:637px;padding:8px 0 0 0}
+.clear_line{height:1px;overflow:hidden;text-indent:-9999px;clear:both}
+
+.menu2{padding:7px 0 45px 0}
+.menu2 a{display:block;font-size:12px;padding:8px 0 15px 31px;margin:1px 0 0 0}
+* html .menu2 a{height:1px}
+.menu2 a ins{text-decoration:none;padding:3px 5px 3px 4px}
+.menu2 a:link,.menu2 a:visited{text-decoration:none}
+.menu2 a:hover ins{background:#d9d9d9;color:#000}
+
+.menu2 a.politic{background:url(../images/politic.gif) 0 0 no-repeat}
+.menu2 a.business{background:url(../images/business.gif) 0 0 no-repeat}
+.menu2 a.news{background:url(../images/news.gif) 0 0 no-repeat}
+.menu2 a.contacts{background:url(../images/contacts.gif) 0 0 no-repeat}
+.menu2 a.messages{background:url(../images/messages.gif) 0 0 no-repeat}
+.menu2 a.organizer{background:url(../images/organizer.gif) 0 0 no-repeat}
+.menu2 a.photos{background:url(../images/photos.gif) 0 0 no-repeat}
+.menu2 a.regging{background:url(../images/regging.gif) 0 0 no-repeat}
+.menu2 a.activation{background:url(../images/activation.gif) 0 0 no-repeat}
+
+
+.help_menu{}
+.help_menu .title{color:#000;background:url(../images/help.gif) 0 0 no-repeat;height:28px;
+padding:0 0 0 25px;line-height:20px}
+.help_menu .help_menu_pad{padding:0 0 20px 25px}
+.help_menu a{display:block;font-size:11px;margin:10px 0 0 0}
+.help_menu a:link,.help_menu a:visited,.help_menu a:hover{color:#555}
+.help_menu b{display:block;font-size:11px;margin:10px 0 0 0}
+
+.course{width:147px}
+.course .title{color:#4e4e4e;padding:0 0 10px 0}
+.course .other{height:40px;padding:3px 0 0 0}
+.course .other a{background:url(../images/arrow1.gif) 0 55% no-repeat;font-size:10px;float:right;padding:2px 0 2px 20px}
+
+.footer{border-top:1px solid #dedede;padding:6px 0 12px 0}
+div.footer_block{width:875px;margin:0 auto}
+table.footer_block{width:100%}
+
+.footer .copyright{color:#bfbfbf;font-size:10px;padding:0 0 0 30px;background:url(../images/copyright.gif) 0 1px no-repeat;
+width:250px;float:left}
+.footer .copyright a:link,.footer .copyright a:visited{color:#bfbfbf}
+.footer .copyright a:hover{color:#888}
+.footer .copyright .design{font-size:11px;padding:7px 0 0 0;color:#b2b2b2}
+.footer .copyright .design a:link,.footer .copyright .design a:visited{color:#b2b2b2}
+.footer .copyright .design a:hover{color:#777}
+
+.menu3{float:right;padding:1px 0 0 0}
+.menu3 a{font-size:11px;float:left;padding:1px;margin:0 0 0 13px}
+.menu3 a:link,.menu3 a:visited,.menu3 a:hover{color:#0085d5}
+
+.profile{}
+.profile div.main_info{padding:0 0 25px 0}
+.profile table.main_info{width:100%}
+
+.profile .main_info td.photo{width:185px;vertical-align:top}
+.profile .main_info div.photo{width:185px;overflow:hidden}
+.profile .main_info .photo img{display:block;background:#fff;padding:3px;border:1px solid #d3d3d3}
+
+.profile .main_info td.user_info{vertical-align:top}
+.profile .main_info .user_info .name{color:#c20000;font-size:16px}
+.profile .main_info .user_info .status{color:#3e9b00;font-size:11px;background:url(../images/status.gif) 0 6px no-repeat;
+padding:2px 0 0 12px}
+.profile .main_info .user_info .items{padding:20px 0 0 0}
+.profile .main_info .user_info .items .item{padding:0 0 10px 0;color:#4e4e4e}
+.profile .main_info .user_info .items .item_option{cursor: pointer; cursor: hand}
+.profile .main_info .user_info .items .item ins{color:#1f1f1f;text-decoration:none}
+.profile .main_info .user_info .items .item a:link,.profile .main_info .user_info .items .item a:visited,
+.profile .main_info .user_info .items .item a:hover{color:#1f1f1f}
+
+.window1{padding:0 0 38px 0}
+.window1 .title{height:28px;line-height:26px;overflow:hidden;background:url(../images/title1.gif) 0 -28px repeat-x}
+.window1 .title .in{background:url(../images/title1.gif) 0 0 no-repeat}
+.window1 .title .in .in{background:url(../images/title1.gif) 100% -56px no-repeat;padding:2px 11px 0 11px;color:#1e1e1e}
+.window1 .title .in .in .refresh{float:right;line-height:26px;height:26px}
+.window1 .title .in .in .refresh input{vertical-align:-10%;margin:0 3px 0 0}
+
+.window1 .posts{border:3px solid #dcdcdc;border-width:0 3px 3px 3px}
+.window1 .posts table.posts{width:100%}
+.window1 .posts tr{cursor:pointer}
+.window1 .posts tr:hover{background:#fffebf}
+.window1 .posts td{border:1px solid #dcdcdc;padding:10px 10px;font-size:10px;vertical-align:top;color:#555}
+.window1 > .posts td{width:85px}
+.window1 .posts td+td{width:503px}
+.window1 .posts td a:link,.window1 .posts td a:visited,.window1 .posts td a:hover{color:#555}
+.window1 .posts td a.more{float:right;margin:0 0 5px 10px}
+.window1 .posts td a.more img{display:block;padding:2px 3px}
+.window1 .view_all{height:16px}
+.window1 .view_all ins{float:right;text-decoration:none;height:12px;line-height:12px;
+background:url(../images/view_all.gif) 0 0 no-repeat #dcdcdc;padding:0 5px 4px 40px;font-size:10px}
+
+.window1 .posts td.message1{padding:0;width:auto;cursor:default}
+.window1 .posts div.message1{background:#fffebf;padding:10px 0 0 0;
+border:3px solid #dcdcdc;border-width:3px 0}
+.window1 .posts .message1 table{}
+.window1 .posts .message1 tr{cursor:default}
+.window1 .posts .message1 td{border:0;padding:0}
+.window1 > .posts .message1 td{width:auto}
+.window1 .posts .message1 td+td{width:auto}
+.window1 .posts td .message1 a.more{margin:0 10px 5px 10px}
+.window1 .posts td .message1 .message_text{padding:0 0 0 8px}
+.window1 .posts td .message1 .message_text table{}
+.window1 .posts .message1 .message_text td{padding:0 0 7px 0}
+.window1 > .posts .message1 .message_text td{width:85px}
+.window1 .posts .message1 .message_text td+td{width:auto}
+.window1 .posts .message1 .buttons{height:30px;float:right;padding:0 35px 0 0}
+.window1 .posts .message1 .buttons a{float:left;height:19px;line-height:19px;width:83px;text-align:center;font-size:11px;
+margin:0 0 0 4px;padding:0 0 1px 0}
+.window1 .posts .message1 .buttons a.answer:link,.window1 .posts .message1 .buttons a.answer:visited,
+.window1 .posts .message1 .buttons a.answer:hover{background:#d2d2d2;text-decoration:none}
+.window1 .posts .message1 .buttons a.delete:link,.window1 .posts .message1 .buttons a.delete:visited,
+.window1 .posts .message1 .buttons a.delete:hover{background:#e3e3e3;text-decoration:none}
+.window1 .posts .message1 .cl{height:1px;overflow:hidden;text-indent:-9999px;clear:both}
+
+.window1 .posts .message1 .answer_text{border-top:1px solid #dcdcdc;padding:8px 0 0 8px}
+.window1 .posts .message1 .answer_text td{padding:0 0 7px 0}
+.window1 > .posts .message1 .answer_text td{width:85px}
+.window1 > .posts .message1 .answer_text td+td{width:auto}
+.window1 .posts .message1 .answer_text input{display:block;border:1px solid #cacaca;background:#fff;
+padding:3px;width:493px;font-size:10px}
+.window1 .posts .message1 .answer_text textarea{display:block;border:1px solid #cacaca;background:#fff;
+padding:3px;width:493px;height:70px;font-size:10px;overflow:auto}
+
+.new_messages .theme{color:#999}
+
+.my_mail{}
+.my_mail .tabs{height:27px;overflow:hidden}
+.my_mail .tabs a{float:left;padding:0 0 0 17px;height:27px;line-height:27px;background:url(../images/tabs.gif) 0 0 no-repeat #cacaca}
+.my_mail .tabs a i{font-style:normal;display:block;padding:0 17px 0 0;background:url(../images/tabs.gif) 100% -27px no-repeat}
+.my_mail .tabs a:link,.my_mail .tabs a:visited,.my_mail .tabs a:hover{color:#c20000;text-decoration:none}
+
+.my_mail .tabs a.small{font-size:10px;background:url(../images/tabs.gif) 0 -54px no-repeat #ddd}
+.my_mail .tabs a.small i{background:url(../images/tabs.gif) 100% -81px no-repeat #ddd}
+.my_mail .tabs a.small:link,.my_mail .tabs a.small:visited{color:#cf6e6e;text-decoration:none;opacity:0.99}
+.my_mail .tabs a.small:hover{color:#cf6e6e;text-decoration:none;opacity:0.75}
+.my_mail .tabs .summ{float:right;font-size:10px;line-height:27px;color:#6a6a6a}
+.my_mail .tabs .summ b{font-weight:normal;color:#333}
+
+.my_mail .my_mail_messages{border:1px solid #cacaca}
+.my_mail .my_mail_messages table.posts{width:100%}
+.my_mail .my_mail_messages td{padding:6px 6px;border:1px solid #cacaca;vertical-align:top}
+.my_mail > .my_mail_messages td{width:44px}
+.my_mail .my_mail_messages td+td{width:132px}
+.my_mail .my_mail_messages td+td+td{width:423px}
+.my_mail .my_mail_messages thead td{background:#cacaca;color:#fff}
+.my_mail .my_mail_messages tbody td{color:#555;font-size:10px}
+.my_mail .my_mail_messages .message_date{font-size:9px;padding:0 8px 8px 8px}
+
+.my_mail .my_mail_messages td a.more{float:right;margin:0 0 5px 10px}
+.my_mail .my_mail_messages td a.more img{display:block;padding:2px 3px}
+
+.my_mail .my_mail_messages td.message1{padding:0;width:auto;cursor:default}
+.my_mail .my_mail_messages div.message1{background:#fffebf;padding:10px 0 0 0;
+border:3px solid #cacaca;border-width:3px 0}
+.my_mail .my_mail_messages .message1 table{}
+.my_mail .my_mail_messages .message1 tr{cursor:default}
+.my_mail .my_mail_messages .message1 td{border:0;padding:0}
+.my_mail > .my_mail_messages .message1 td{width:auto}
+.my_mail .my_mail_messages .message1 td+td{width:auto}
+.my_mail .my_mail_messages td .message1 a.more{margin:-20px 6px 5px 10px}
+.my_mail .my_mail_messages td .message1 .message_text{padding:0 10px 0 8px}
+.my_mail .my_mail_messages td .message1 .message_text table{}
+.my_mail .my_mail_messages .message1 .message_text td{padding:0 0 7px 0}
+.my_mail > .my_mail_messages .message1 .message_text td{width:85px}
+.my_mail .my_mail_messages .message1 .message_text td+td{width:auto}
+.my_mail .my_mail_messages .message1 .buttons{height:30px;float:right;padding:0 35px 0 0}
+.my_mail .my_mail_messages .message1 .buttons a{
+float:left;height:19px;line-height:19px;width:83px;text-align:center;font-size:11px;margin:0 0 0 4px;padding:0 0 1px 0}
+.my_mail .my_mail_messages .message1 .buttons a.answer:link,.my_mail .my_mail_messages .message1 .buttons a.answer:visited,
+.my_mail .my_mail_messages .message1 .buttons a.answer:hover{background:#d2d2d2;text-decoration:none}
+.my_mail .my_mail_messages .message1 .buttons a.delete:link,.my_mail .my_mail_messages .message1 .buttons a.delete:visited,
+.my_mail .my_mail_messages .message1 .buttons a.delete:hover{background:#e3e3e3;text-decoration:none}
+.my_mail .my_mail_messages .message1 .cl{height:1px;overflow:hidden;text-indent:-9999px;clear:both}
+
+.my_mail .my_mail_messages .message1 .answer_text{border-top:1px solid #dcdcdc;padding:8px 0 0 8px}
+.my_mail .my_mail_messages .message1 .answer_text td{padding:0 0 7px 0}
+.my_mail > .my_mail_messages .message1 .answer_text td{width:85px}
+.my_mail .my_mail_messages .message1 .answer_text td+td{width:auto}
+.my_mail .my_mail_messages .message1 .answer_text input{display:block;border:1px solid #cacaca;background:#fff;
+padding:3px;width:493px;font-size:10px}
+.my_mail .my_mail_messages .message1 .answer_text textarea{display:block;border:1px solid #cacaca;background:#fff;
+padding:3px;width:493px;height:70px;font-size:10px;overflow:auto}
+
+.my_mail .pager{padding:15px 0 30px 0}
+.my_mail .pager table{margin:0 auto;font-size:11px}
+.my_mail .pager td{color:#161616;padding:0 4px}
+.my_mail .pager td a:link,.my_mail .pager td a:visited,.my_mail .pager td a:hover{color:#161616}
+.my_mail .pager .arrow1,.my_mail .pager .arrow2{display:block;text-indent:-9999px;overflow:hidden;width:18px;height:6px}
+.my_mail .pager .arrow1{background:url(../images/arrow4.gif) 100% 0 no-repeat;padding:0 0 0 5px}
+.my_mail .pager .arrow2{background:url(../images/arrow4.gif) 0 -6px no-repeat;padding:0 5px 0 0}
+
+.population{font-size:11px;color:#555}
+.population span{color:#000}
+.population ins{text-decoration:none;color:#2b7200}
+
+.start{padding:0 0 40px 0}
+.start .start_text{color:#555;padding:0 0 45px 0}
+.start .start_text h1{color:#c20000;font-size:16px;font-weight:normal;text-align:center;padding:0 0 20px 0}
+.start .start_text strong{color:#000;font-weight:normal}
+.start .start_text p{text-indent:20px;padding:0 0 1.2em 0}
+.start .start_text ul{padding:0 0 1.2em 20px}
+.start .start_text ul li{}
+.start .start_text a{}
+.start .start_text a:link,.start .start_text a:visited,.start .start_text a:hover{color:#0085d5}
+.start .start_text a.guide{padding:0 0 0 30px;background:url(../images/guide.gif) 5px 50% no-repeat}
+
+.start .start_form{background:#fffebf;width:380px;margin:0 auto}
+.start .start_form .start_form_pad{padding:0 23px}
+.start .start_form .top_corners{background:url(../images/form_corners.gif) 0 0 no-repeat}
+.start .start_form .top_corners i{display:block;height:10px;overflow:hidden;text-indent:-9999px;
+background:url(../images/start_form.gif) 100% -10px no-repeat}
+.start .start_form .bottom_corners{background:url(../images/start_form.gif) 0 -30px no-repeat}
+.start .start_form .bottom_corners i{display:block;height:10px;overflow:hidden;text-indent:-9999px;
+background:url(../images/start_form.gif) 100% -20px no-repeat}
+.start .start_form h2{color:#c20000;font-size:16px;font-weight:normal;text-align:center;padding:0 20px 15px 20px}
+.start .start_form table.form_table{margin:0 auto}
+.start .start_form .form_table td{padding:0 0 9px 0}
+.start > .start_form .form_table td{width:70px}
+.start .start_form .form_table td+td{width:157px}
+.start .start_form .form_table td+td+td{width:100px}
+.start .start_form .form_table label{color:#000}
+.start .start_form .form_table a{font-size:10px}
+.start .start_form .form_table a:link,.start .start_form .form_table a:visited,
+.start .start_form .form_table a:hover{color:#555}
+.start .start_form .form_table input.text{background:#fff;border:1px solid #cacaca;display:block;width:140px;padding:1px 2px;
+font-size:12px}
+.start .start_form .enter{padding:5px 0 10px 0}
+.start .start_form .enter a{display:block;background:url(../images/enter.gif) 0 0 no-repeat;width:104px;height:20px;
+line-height:20px;margin:0 auto;text-align:center}
+.start .start_form .enter a:link,.start .start_form .enter a:visited{color:#555;text-decoration:none;opacity:0.99}
+.start .start_form .enter a:hover{color:#555;opacity:0.75}
+
+.start .start_form .other_computer{font-size:10px;color:#555;text-align:center;vertical-align:middle}
+.start .start_form .other_computer input{vertical-align:middle;margin:3px 8px 3px 3px;width:13px;height:13px}
+
+.rent{}
+
+.path{font-size:14px;padding:0 0 15px 0}
+.path a:link,.path a:visited{color:#c20000}
+.path a:hover{color:#c20000}
+.path .top{font-size:16px}
+
+.rent div.main_info{}
+.rent table.main_info{width:100%}
+
+.rent .main_info td.photo{width:1px;vertical-align:top;padding:0 0 25px 0}
+.rent .main_info div.photo{padding:0 15px 0 0}
+.rent .main_info .photo img{display:block;padding:3px;background:#fff;border:1px solid #d3d3d3}
+
+.rent .main_info td.rent_info{vertical-align:top;padding:0 0 25px 0}
+.rent .main_info td.rent_info .items{}
+.rent .main_info td.rent_info .items .item{padding:0 0 10px 0}
+.rent .main_info td.rent_info .items .item ins{text-decoration:none;color:#1f1f1f}
+.rent .main_info td.rent_info .items .item a:link,.rent .main_info td.rent_info .items .item a:visited,
+.rent .main_info td.rent_info .items .item a:hover{color:#1f1f1f}
+
+.yellow_block1{background:#fff8cf}
+.yellow_block1 .top_corners{background:url(../images/yellow_block1.gif) 0 0 no-repeat}
+.yellow_block1 .top_corners i{display:block;height:10px;overflow:hidden;text-indent:-9999px;background:url(../images/yellow_block1.gif) 100% -10px no-repeat}
+.yellow_block1 .bottom_corners{background:url(../images/yellow_block1.gif) 0 -30px no-repeat}
+.yellow_block1 .bottom_corners i{display:block;height:10px;overflow:hidden;text-indent:-9999px;background:url(../images/yellow_block1.gif) 100% -20px no-repeat}
+
+.rent .buy{}
+.rent .buy .buy_in{padding:2px 15px}
+.rent .buy .buy_in .selection{padding:0 0 10px 0}
+.rent .buy .buy_in label{display:block;color:#000;padding:0 0 10px 0}
+.rent .buy .buy_in label.checkbox{padding:10px 0 0 0}
+.rent .buy .buy_in label.radio input{width:13px;height:13px;margin:0 7px 0 0;vertical-align:middle}
+.rent .buy .buy_in label.checkbox input{width:13px;height:13px;margin:0 7px 0 0;vertical-align:middle}
+
+.rent .buy .buttons{padding:15px 0 0 0;height:35px}
+.rent .buy .buttons a{float:left;height:20px;line-height:20px;padding:0 25px;margin:0 20px 0 0}
+.rent .buy .buttons a.to_buy{font-size:10px}
+.rent .buy .buttons a.to_buy:link,.rent .buy .buttons a.to_buy:visited{background:#d2d2d2;color:#555;text-decoration:none;opacity:0.99}
+.rent .buy .buttons a.to_buy:hover{color:#555;opacity:0.75}
+.rent .buy .buttons a.to_rent{font-size:11px}
+.rent .buy .buttons a.to_rent:link,.rent .buy .buttons a.to_rent:visited{background:#e3e3e3;color:#9c9c9c;text-decoration:none;opacity:0.99}
+.rent .buy .buttons a.to_rent:hover{color:#9c9c9c;opacity:0.75}
+
+
+.help_text{color:#555}
+.help_text h1{color:#c20000;font-size:16px;text-align:center;font-weight:normal;padding:0 0 15px 0}
+.help_text h2{color:#000;font-size:12px;text-align:center;font-weight:normal;padding:0 0 15px 0}
+.help_text p{text-indent:25px;padding:0 0 1em 0}
+.help_text p b{color:#000;font-weight:normal}
+.help_text .img_centred1{padding:0 0 1em 0}
+.help_text .img_centred1 img{display:block;margin:0 auto;border:1px solid #e2e2e2}
+.help_text .img_centred2{padding:0 0 1em 0}
+.help_text .img_centred2 img{display:block;margin:0 auto;border:1px solid #e2e2e2;padding:15px}
+
+.help_text .faq{font-size:11px}
+.help_text .faq .question{color:#555;font-style:italic}
+.help_text .faq .answer{padding:0 0 1em 0;color:#000}
+
+.help_text .rating{color:#6a6a6a;font-size:10px;text-align:right;position:relative;top:-30px}
+.help_text .rating b{color:#000;font-size:12px;font-weight:normal}
+
+.help_text .rate{padding:0 0 45px 0}
+.help_text .rate table{margin:0 auto}
+.help_text .rate table td{vertical-align:top}
+.help_text .rate ins{display:block;text-decoration:none;padding:0 0 7px 0}
+.help_text .rate .rate_line{width:446px;padding:15px 0 0 1px;background:url(../images/rate.gif) 0 0 no-repeat}
+.help_text .rate .rate_line .rate_line_bg{width:401px;height:7px;overflow:hidden;background:#c7c7c7}
+.help_text .rate .rate_line .rate_line_bg .answer_line{height:7px;overflow:hidden;background:#319cdd;text-indent:-9999px}
+.help_text .rate .torate{padding:27px 0 0 0}
+.help_text .rate .torate a{float:left;background:#d2d2d2;height:20px;line-height:20px;padding:0 20px;
+font-size:10px}
+.help_text .rate .torate a:link,.help_text .rate .torate a:visited{opacity:0.99;text-decoration:none;color:#555}
+.help_text .rate .torate a:hover{opacity:0.75;color:#555}
+
+
+.steps{padding:40px 0 30px 0}
+.steps .step_left{background:url(../images/help_steps.gif) 0 0 no-repeat;width:83px;height:53px;float:left}
+.steps .step_right{background:url(../images/help_steps.gif) 100% 0 no-repeat;width:83px;height:53px;float:right}
+.steps .step_left a{display:block;padding:0 10px 0 0;height:33px;line-height:33px;text-align:right}
+.steps .step_right a{display:block;padding:0 0 0 10px;height:33px;line-height:33px}
+.steps .step_left a:link,.steps .step_left a:visited,.steps .step_left a:hover,
+.steps .step_right a:link,.steps .step_right a:visited,.steps .step_right a:hover{color:#fff;text-decoration:none}
+
+.ext_support{padding:40px 0 0 0}
+.ext_support .support_text{font-size:12px;color:#000;text-indent:15px;padding:0 0 10px 0}
+.ext_support .to_ask{padding:10px 0 0 0;height:60px;overflow:hidden}
+.ext_support .to_ask a{float:left;height:20px;line-height:20px;background:#d2d2d2;font-size:10px;padding:0 15px}
+.ext_support .to_ask a:link,.ext_support .to_ask a:visited{opacity:0.99;text-decoration:none}
+.ext_support .to_ask a:hover{opacity:0.75}
+
+.ext_support textarea{border:1px solid #c9c9c9;overflow:auto;background:#fff;width:620px;padding:2px;height:100px}
+
+
+div.contacts{padding:0 0 40px 0}
+
+div.contacts .contacts_search{background:url(../images/contacts_search.gif) 0 0 no-repeat;height:20px;overflow:hidden;
+padding:7px 0 0 33px}
+div.contacts .contacts_search input{color:#a2a2a2;border:0;background:transparent;height:14px;width:345px}
+
+div.contacts .contacts_numbers{color:#6a6a6a;font-size:10px;position:relative;width:100%}
+div.contacts .contacts_numbers ins{position:absolute;display:block;right:0;text-decoration:none;top:-30px}
+div.contacts .contacts_numbers ins b{font-weight:normal;color:#000}
+
+div.contacts .contacts_numbers2{color:#6a6a6a;font-size:10px;position:relative;width:100%}
+div.contacts .contacts_numbers2 ins{position:absolute;display:block;right:0;text-decoration:none;top:-20px}
+div.contacts .contacts_numbers2 ins b{font-weight:normal;color:#000}
+
+div.contacts .contacts_list{border:2px solid #cacaca;border-width:2px 2px 1px 2px}
+div.contacts .contacts_list div.item{border-bottom:1px solid #cacaca;background:#fff;padding:2px}
+div.contacts .contacts_list div.item table.item{width:100%}
+div.contacts .contacts_list div.item table.item td{vertical-align:top}
+div.contacts .contacts_list div.item table.item td.contact_photo{width:78px}
+div.contacts .contacts_list div.item table.item td.contact_photo a{float:left}
+div.contacts .contacts_list div.item table.item td.contact_photo a img{display:block}
+div.contacts .contacts_list div.item table.item td.buttons{vertical-align:bottom;width:210px}
+div.contacts .contacts_list div.item table.item td.buttons div.buttons{padding:0 6px 4px 0;float:right}
+div.contacts .contacts_list div.item table.item .buttons a{float:left;margin:0 0 0 12px;height:20px;line-height:20px;font-size:10px}
+div.contacts .contacts_list div.item table.item .buttons a:link,
+div.contacts .contacts_list div.item table.item .buttons a:visited{background:#d2d2d2;color:#555;text-decoration:none;opacity:0.99}
+div.contacts .contacts_list div.item table.item .buttons a:hover{background:#d2d2d2;color:#555;opacity:0.75}
+
+div.contacts .contacts_list div.item table.item .name{padding:6px 0 4px 0}
+div.contacts .contacts_list div.item table.item .name a:link,div.contacts .contacts_list div.item table.item .name a:visited{
+color:#c50000;text-decoration:none}
+div.contacts .contacts_list div.item table.item .name a:hover{color:#c50000;text-decoration:underline}
+div.contacts .contacts_list div.item table.item .last_visit{font-size:10px;color:#555}
+
+div.contacts .contacts_list div.item table.item .buttons a.to_write:link,
+div.contacts .contacts_list div.item table.item .buttons a.to_write:visited,
+div.contacts .contacts_list div.item table.item .buttons a.to_write:hover{padding:0 10px 0 28px;
+background:url(../images/mail.gif) 10px 50% no-repeat #d2d2d2}
+
+div.contacts .contacts_list div.item table.item .buttons a.to_add:link,
+div.contacts .contacts_list div.item table.item .buttons a.to_add:visited,
+div.contacts .contacts_list div.item table.item .buttons a.to_add:hover{padding:0 10px 0 24px;
+background:url(../images/plus.gif) 10px 50% no-repeat #d2d2d2}
+
+div.contacts .contacts_list div.item table.item .buttons a.to_delete{width:26px}
+div.contacts .contacts_list div.item table.item .buttons a.to_delete:link,
+div.contacts .contacts_list div.item table.item .buttons a.to_delete:visited,
+div.contacts .contacts_list div.item table.item .buttons a.to_delete:hover{background:url(../images/delete.gif) 50% 51% no-repeat #dedede}
+
+div.contacts .pager{padding:15px 0 0 0}
+div.contacts .pager table{margin:0 auto;font-size:11px}
+div.contacts .pager td{color:#161616;padding:0 4px}
+div.contacts .pager td a:link,div.contacts .pager td a:visited,div.contacts .pager td a:hover{color:#161616}
+div.contacts .pager .arrow1,div.contacts .pager .arrow2{display:block;text-indent:-9999px;overflow:hidden;width:18px;height:6px}
+div.contacts .pager .arrow1{background:url(../images/arrow4.gif) 100% 0 no-repeat;padding:0 0 0 5px}
+div.contacts .pager .arrow2{background:url(../images/arrow4.gif) 0 -6px no-repeat;padding:0 5px 0 0}

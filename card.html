@@ -1,0 +1,107 @@
+<?php
+header("Content-type: text/html; charset=utf-8");
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="imagetoolbar" content="no"/>
+<title></title>
+<meta name="Keywords" content="второй, мир, сеть, карточки, социальная сеть, друзья, фотографии"/>
+<meta name="Description" content="Второй Мир"/>
+<link rel="shortcut icon" href="images/favicon.ico"/>
+<link rel="stylesheet" href="styles/layout.css" type="text/css"/>
+<link rel="stylesheet" href="styles/cards.css" type="text/css"/>
+<script type="text/javascript" src="inc/window.js"></script>
+<script type="text/javascript">
+
+function show_card_menu()
+{
+	var card = document.getElementById("card");
+	if(document.getElementById("card_menu"))
+	{
+		card.removeChild(document.getElementById("card_menu"));
+		this.innerHTML = "▼";
+	}
+	else
+	{
+		var cm = document.createElement("DIV");
+		cm.id = "card_menu";
+		cm.className = "card_menu";
+		cm.innerHTML = "<div class=\"card_menu_item\"><a href=\"#\">456</a></div><div class=\"card_menu_item\"><a href=\"#\">456</a></div><div class=\"card_menu_item\"><a href=\"#\">456</a></div>";
+		card.appendChild(cm);
+		cm.style.position = "absolute";
+		if(navigator.appVersion.search("MSIE 6") != -1 || navigator.appVersion.search("MSIE 7") != -1) cm.style.top = card.offsetTop+157+"px";
+		else cm.style.top = card.offsetTop+18+"px";
+		this.innerHTML = "▲";
+	}
+}
+</script>
+</head>
+<body>
+<div class="main">
+	<div class="carcass">
+		<table class="head"><tr><td class="head">
+			<div class="logo">
+				<a href="index.php"><img class="img" src="images/logo.gif" alt="Логотип"/><img class="text" src="images/logo_text.gif" alt="Второй Мир"/></a>
+				<div class="slogan"><span>Всё дело в карточках</span></div>
+			</div>
+			<div class="head_right">
+				<div class="menu">
+					<a href="index.php">Главная</a>
+				</div>
+			</div>
+		</td></tr></table>
+		<div class="right_column">
+		
+		<div id="card" class="card" style="width: 700px">
+			<div class="title">
+				<div class="left">
+					<span class="tab current">123123</span><span class="tab arrow"><a href="#" onclick='show_card_menu(); return false;'>▼</a></span>
+				
+				</div>
+				<div class="right" style="width: 164px"><div class="wait"></div><input type="checkbox" class="refresh">Автообновление</div>
+				Ваши сообщения
+			</div>
+			<div class="body" style="height: 400px">
+			<!--
+				<div id="card_menu" class="card_menu">
+					<div class="card_menu_item"><a href="#">456</a></div>
+					<div class="card_menu_item"><a href="#">456</a></div>
+					<div class="card_menu_item"><a href="#">456</a></div>
+				</div>
+				-->
+				123
+			</div>
+			<div class="title">
+				<div class="left">
+					<div class="tab actions"><a href="#">Операции:</a></div>
+				</div>
+				<div class="right"><span class="tab arrow">←</span><span class="tab">1</span><span class="tab current">99</span><span class="tab">999</span><span class="tab arrow">→</span></div>
+			</div>
+		</div>
+		
+		</div>
+		<div class="clear_line">&nbsp;</div>
+	</div>
+	<div class="footer"><div class="footer_block"><table class="footer_block"><tr><td>
+		<div class="copyright">
+			2008—2009 «<a href="index.php">Второй Мир</a>»<br/>
+			Все права защищены.
+		</div>
+		<div class="menu3">
+			<a href="help/about.php">О проекте</a>
+			<a href="help/index.php">Помощь</a>
+		</div>
+	</td></tr></table></div></div>
+</div>
+
+<script type="text/javascript">
+Win.title = "123";
+Win.inner = "777";
+Win.show();
+//Win.hide();
+</script>
+
+</body>
+</html>
